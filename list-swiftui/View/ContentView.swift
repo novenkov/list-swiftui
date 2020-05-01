@@ -8,26 +8,16 @@
 
 import SwiftUI
 
-struct Person {
-    let name: String
-    let job: String
-}
+let personBrain = PersonBrain()
 
-let persons = [
-    Person(name: "John Swing", job: "Producer"),
-    Person(name: "Robert Delta", job: "Developer"),
-    Person(name: "Bobby Stone", job: "Designer"),
-    Person(name: "Melissa Burn", job: "Product Manager"),
-    Person(name: "Genry Black", job: "Driver")
-]
-
+//View
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            List(persons, id: \.name) { person in
+            List(personBrain.persons, id: \.name) { person in
                 NavigationLink(destination: PersonView()) {
                     HStack {
-                        Image(systemName: "ear")
+                        Image(systemName: person.pic)
                         VStack(alignment: .leading) {
                             Text(person.name)
                             Text(person.job)

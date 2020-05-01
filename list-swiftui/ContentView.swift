@@ -25,7 +25,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List(persons, id: \.name) { person in
-                NavigationLink(destination: /*@START_MENU_TOKEN@*/ /*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
+                NavigationLink(destination: PersonView()) {
                     HStack {
                         Image(systemName: "ear")
                         VStack(alignment: .leading) {
@@ -37,7 +37,7 @@ struct ContentView: View {
                     }
                 }
             }
-            .navigationBarTitle("Navigation Bar")
+            .navigationBarTitle("Persons")
         }
     }
 }

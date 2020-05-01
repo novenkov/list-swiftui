@@ -13,6 +13,7 @@
 		B91B3D40245CAA0E0012D8D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B91B3D3F245CAA0E0012D8D6 /* Assets.xcassets */; };
 		B91B3D43245CAA0E0012D8D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B91B3D42245CAA0E0012D8D6 /* Preview Assets.xcassets */; };
 		B91B3D46245CAA0E0012D8D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B91B3D44245CAA0E0012D8D6 /* LaunchScreen.storyboard */; };
+		B9FE8899245CB0D000C618DC /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FE8898245CB0D000C618DC /* PersonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B91B3D42245CAA0E0012D8D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B91B3D45245CAA0E0012D8D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B91B3D47245CAA0E0012D8D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9FE8898245CB0D000C618DC /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				B91B3D39245CAA0C0012D8D6 /* AppDelegate.swift */,
 				B91B3D3B245CAA0C0012D8D6 /* SceneDelegate.swift */,
 				B91B3D3D245CAA0C0012D8D6 /* ContentView.swift */,
+				B9FE8898245CB0D000C618DC /* PersonView.swift */,
 				B91B3D3F245CAA0E0012D8D6 /* Assets.xcassets */,
 				B91B3D44245CAA0E0012D8D6 /* LaunchScreen.storyboard */,
 				B91B3D47245CAA0E0012D8D6 /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B91B3D3A245CAA0C0012D8D6 /* AppDelegate.swift in Sources */,
+				B9FE8899245CB0D000C618DC /* PersonView.swift in Sources */,
 				B91B3D3C245CAA0C0012D8D6 /* SceneDelegate.swift in Sources */,
 				B91B3D3E245CAA0C0012D8D6 /* ContentView.swift in Sources */,
 			);

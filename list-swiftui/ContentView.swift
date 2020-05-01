@@ -8,9 +8,37 @@
 
 import SwiftUI
 
+struct Person {
+    let name: String
+    let job: String
+}
+
+let persons = [
+    Person(name: "John Swing", job: "Producer"),
+    Person(name: "Robert Delta", job: "Developer"),
+    Person(name: "Bobby Stone", job: "Designer"),
+    Person(name: "Melissa Burn", job: "Product Manager"),
+    Person(name: "Genry Black", job: "Driver")
+]
+
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        NavigationView {
+            List(persons, id: \.name) { person in
+                NavigationLink(destination: /*@START_MENU_TOKEN@*/ /*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
+                    HStack {
+                        Image(systemName: "ear")
+                        VStack(alignment: .leading) {
+                            Text(person.name)
+                            Text(person.job)
+                                .font(.subheadline)
+                                .foregroundColor(.secondary)
+                        }
+                    }
+                }
+            }
+            .navigationBarTitle("Navigation Bar")
+        }
     }
 }
 

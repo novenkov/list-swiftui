@@ -15,7 +15,10 @@ struct ContentView: View {
             List(data) { person in
                 NavigationLink(destination: DetailView(person: person)) {
                     HStack {
-                        Image(systemName: person.pic)
+                        Image(person.pic)
+                            .resizable()
+                            .frame(width: 50, height: 50)
+                            .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
                         VStack(alignment: .leading) {
                             Text(person.name)
                             Text(person.job)
@@ -25,6 +28,11 @@ struct ContentView: View {
                     }
                 }
             }
+            .navigationBarItems(
+                leading: Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Text("Add")
+                }
+            )
             .navigationBarTitle("Persons")
         }
     }

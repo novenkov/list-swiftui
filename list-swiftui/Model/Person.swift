@@ -13,4 +13,5 @@ struct Person: Identifiable {
     let name: String
     let job: String
     let pic: String
+    let description: String
 }

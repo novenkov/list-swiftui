@@ -30,10 +30,13 @@ struct ContentView: View {
             }
             .navigationBarItems(
                 leading: Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                    Text("Add")
+                    Image(systemName: "plus")
+                },
+                trailing: Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Text("Log out")
                 }
             )
-            .navigationBarTitle("Persons")
+            .navigationBarTitle("Client book")
         }
     }
 }

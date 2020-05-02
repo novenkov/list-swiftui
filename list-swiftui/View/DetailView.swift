@@ -30,6 +30,24 @@ struct DetailView: View {
                 .padding(.top, 10)
                 .padding(.bottom, 10)
             }
+            Section(header: Text("PHONE")) {
+                HStack(spacing: 15.0) {
+                    Image(systemName: "phone")
+                        .foregroundColor(.secondary)
+                    Text(person.phone)
+                        .padding(.top, 10)
+                        .padding(.bottom, 10)
+                }
+            }
+            Section(header: Text("MAIL")) {
+                HStack(spacing: 15.0) {
+                    Image(systemName: "envelope")
+                        .foregroundColor(.secondary)
+                    Text(person.mail)
+                        .padding(.top, 10)
+                        .padding(.bottom, 10)
+                }
+            }
             Section(header: Text("DESCRIPTION")) {
                 Text(person.description)
                     .padding(.top, 10)

@@ -6,9 +6,10 @@
 //  Copyright © 2020 yn. All rights reserved.
 //
 
-import Foundation
+import SwiftUI
 
-struct Person {
+struct Person: Identifiable {
+    var id: Int
     let name: String
     let job: String
     let pic: String

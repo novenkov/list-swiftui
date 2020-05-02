@@ -13,8 +13,8 @@
 		B91B3D40245CAA0E0012D8D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B91B3D3F245CAA0E0012D8D6 /* Assets.xcassets */; };
 		B91B3D43245CAA0E0012D8D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B91B3D42245CAA0E0012D8D6 /* Preview Assets.xcassets */; };
 		B91B3D46245CAA0E0012D8D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B91B3D44245CAA0E0012D8D6 /* LaunchScreen.storyboard */; };
-		B9FE8899245CB0D000C618DC /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FE8898245CB0D000C618DC /* PersonView.swift */; };
-		B9FE88A0245CB8D100C618DC /* PersonBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FE889F245CB8D100C618DC /* PersonBrain.swift */; };
+		B9FE8899245CB0D000C618DC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FE8898245CB0D000C618DC /* DetailView.swift */; };
+		B9FE88A0245CB8D100C618DC /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FE889F245CB8D100C618DC /* Data.swift */; };
 		B9FE88A2245CB8F200C618DC /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FE88A1245CB8F200C618DC /* Person.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,8 +27,8 @@
 		B91B3D42245CAA0E0012D8D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B91B3D45245CAA0E0012D8D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B91B3D47245CAA0E0012D8D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9FE8898245CB0D000C618DC /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
-		B9FE889F245CB8D100C618DC /* PersonBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonBrain.swift; sourceTree = "<group>"; };
+		B9FE8898245CB0D000C618DC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		B9FE889F245CB8D100C618DC /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		B9FE88A1245CB8F200C618DC /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,7 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				B9FE88A1245CB8F200C618DC /* Person.swift */,
-				B9FE889F245CB8D100C618DC /* PersonBrain.swift */,
+				B9FE889F245CB8D100C618DC /* Data.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -94,7 +94,7 @@
 		B9FE88A3245CB96200C618DC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B9FE8898245CB0D000C618DC /* PersonView.swift */,
+				B9FE8898245CB0D000C618DC /* DetailView.swift */,
 				B91B3D3D245CAA0C0012D8D6 /* ContentView.swift */,
 			);
 			path = View;
@@ -173,8 +173,8 @@
 			files = (
 				B9FE88A2245CB8F200C618DC /* Person.swift in Sources */,
 				B91B3D3A245CAA0C0012D8D6 /* AppDelegate.swift in Sources */,
-				B9FE88A0245CB8D100C618DC /* PersonBrain.swift in Sources */,
-				B9FE8899245CB0D000C618DC /* PersonView.swift in Sources */,
+				B9FE88A0245CB8D100C618DC /* Data.swift in Sources */,
+				B9FE8899245CB0D000C618DC /* DetailView.swift in Sources */,
 				B91B3D3C245CAA0C0012D8D6 /* SceneDelegate.swift in Sources */,
 				B91B3D3E245CAA0C0012D8D6 /* ContentView.swift in Sources */,
 			);

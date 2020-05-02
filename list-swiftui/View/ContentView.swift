@@ -8,14 +8,12 @@
 
 import SwiftUI
 
-let personBrain = PersonBrain()
-
 //View
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            List(personBrain.persons, id: \.name) { person in
-                NavigationLink(destination: PersonView()) {
+            List(data) { person in
+                NavigationLink(destination: DetailView(person: person)) {
                     HStack {
                         Image(systemName: person.pic)
                         VStack(alignment: .leading) {
